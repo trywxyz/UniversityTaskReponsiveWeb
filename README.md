@@ -28,3 +28,11 @@ Para isso, você deve usar as seguintes regras:
 
 *Utilize o atributo readonly= “” para impedir a entrada de dados nos campos desejados.
 ```
+
+#### Task 03
+```
+A formatação de páginas web se dá pela decoração de elementos HTML. Essa decoração ocorre pela aplicação de folhas de estilo em cascata (CSS) nas páginas, permitindo padronizar layouts, além de organizar o conteúdo, separando a estrutura de um documento HTML da formatação de sua apresentação.
+
+Você, web designer de uma instituição de ensino, está criando um arquivo CSS e formatando a página HTML da instituição, cujas especificações e elementos podem ser observados no arquivo a seguir:
+![alt text](image.png)
+```
