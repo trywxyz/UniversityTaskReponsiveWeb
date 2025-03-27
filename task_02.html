@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento de Notas</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            text-align: left;
+            max-width: 400px;
+            width: 100%;
+            margin-top: 20px;
+        }
+        label, input, select, button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input, select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .btn-container button {
+            width: 48%;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Lançamento de Notas</h1>
+    <form>
+        <label for="disciplina">Disciplina:</label>
+        <select id="disciplina" name="disciplina" required>
+            <option value="introducao">Introdução à Informática</option>
+            <option value="linguagens">Linguagens de Programação</option>
+            <option value="programacao">Programação de Computadores</option>
+        </select>
+
+        <label for="nameStudent" class="nameStudent">Nome do aluno:</label>
+        <input type="text" id="nameStudent" name="nameStudent" required>
+
+        <label for="prova1">Prova 1:</label>
+        <input type="number" id="prova1" name="prova1" min="0" max="10" step="0.1" required>
+
+        <label for="prova2">Prova 2:</label>
+        <input type="number" id="prova2" name="prova2" min="0" max="10" step="0.1" required>
+
+        <label for="exame">Exame:</label>
+        <input type="number" id="exame" name="exame" min="0" max="10" step="0.1">
+
+        <label for="media">Média:</label>
+        <input type="number" id="media" name="media" readonly>
+
+        <label for="faltas">Faltas:</label>
+        <input type="number" id="faltas" name="faltas" min="0" max="16" required>
+
+        <div class="btn-container">
+            <button type="submit">Salvar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+</body>
+</html>
