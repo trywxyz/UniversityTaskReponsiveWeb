@@ -36,3 +36,10 @@ A formatação de páginas web se dá pela decoração de elementos HTML. Essa d
 Você, web designer de uma instituição de ensino, está criando um arquivo CSS e formatando a página HTML da instituição, cujas especificações e elementos podem ser observados no arquivo a seguir:
 ![alt text](image.png)
 ```
+
+#### Task 04
+```
+1 - Pesquisar a diferença entre o JavaScript e a linguagem JAVA.
+2 - Quais empresas criaram o JavaScript e o JAVA, e quais são as que atualmente mantêm o desenvolvimento dessas linguagens?
+3 - Criar um código HTML que tenha um botão que faça com que a página fique da cor AZUL, por meio de uma chamada de JavaScript (anexar o arquivo com o código).
+```
