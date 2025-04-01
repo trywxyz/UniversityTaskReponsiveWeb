@@ -46,7 +46,7 @@ Você, web designer de uma instituição de ensino, está criando um arquivo CSS
 
 #### Task 05
 ```
-1 - Pesquisar a diferença entre o JavaScript e a linguagem JAVA.
-2 - Quais empresas criaram o JavaScript e o JAVA, e quais são as que atualmente mantêm o desenvolvimento dessas linguagens?
-3 - Criar um código HTML que tenha um botão que faça com que a página fique da cor AZUL, por meio de uma chamada de JavaScript (anexar o arquivo com o código).
+Na avaliação da disciplina de Ferramentas de Desenvolvimento Web, uma das questões pedia que o aluno criasse um formulário com 2 campos de SELECT (combo-box): um deles devendo ser nomeado como ESTADOS e as opções devendo ser 4 estados brasileiros (Paraná, São Paulo, Rio de Janeiro e Minas Gerais); e o outro nomeado como CIDADES.
+
+Diante da questão, o aluno foi orientado a utilizar os recursos de HTML + AJAX(JSON) e PHP, sendo que, ao selecionar um ESTADO no primeiro combo-box, automaticamente, o combo-box CIDADES mostrasse as respectivas cidades de cada estado (no mínimo 4 cidades).
 ```
