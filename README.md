@@ -43,3 +43,10 @@ Você, web designer de uma instituição de ensino, está criando um arquivo CSS
 2 - Quais empresas criaram o JavaScript e o JAVA, e quais são as que atualmente mantêm o desenvolvimento dessas linguagens?
 3 - Criar um código HTML que tenha um botão que faça com que a página fique da cor AZUL, por meio de uma chamada de JavaScript (anexar o arquivo com o código).
 ```
+
+#### Task 05
+```
+1 - Pesquisar a diferença entre o JavaScript e a linguagem JAVA.
+2 - Quais empresas criaram o JavaScript e o JAVA, e quais são as que atualmente mantêm o desenvolvimento dessas linguagens?
+3 - Criar um código HTML que tenha um botão que faça com que a página fique da cor AZUL, por meio de uma chamada de JavaScript (anexar o arquivo com o código).
+```
