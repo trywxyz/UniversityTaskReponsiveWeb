@@ -34,7 +34,7 @@ Para isso, você deve usar as seguintes regras:
 A formatação de páginas web se dá pela decoração de elementos HTML. Essa decoração ocorre pela aplicação de folhas de estilo em cascata (CSS) nas páginas, permitindo padronizar layouts, além de organizar o conteúdo, separando a estrutura de um documento HTML da formatação de sua apresentação.
 
 Você, web designer de uma instituição de ensino, está criando um arquivo CSS e formatando a página HTML da instituição, cujas especificações e elementos podem ser observados no arquivo a seguir:
-![alt text](image.png)
+![alt text](/images/image.png)
 ```
 
 #### Task 04
@@ -71,4 +71,27 @@ Realizar operações com datas é uma atividade comum na rotina de desenvolvedor
 Sabendo disso, você, desenvolvedor de sistemas, precisa implementar uma função em PHP que recebe duas datas como parâmetros: data inicial e data final. Você deve imprimir, nessa função, cada um dos dias entre essas duas datas, utilizando o formato d/m/Y do PHP.
 
 Para escrever esse programa, você precisa utilizar a função add e as classes DateTime e DateInterval do PHP. O resultado, por exemplo, deve apresentar a sequência de datas na tela conforme pode ser observado na imagem a seguir:
+```
+
+#### Task 08
+```
+Formulários são utilizados para diversas funcionalidades em sistemas web. São inúmeras possibilidades, como cadastro em sites promocionais, consulta de produtos em sites de e-commerce, preenchimento de questionários on-line e pesquisas em geral, entre outras. Receber e interpretar dados enviados por formulários faz parte da rotina de desenvolvedores de sistemas web, uma vez que, normalmente, os sistemas compreendem rotinas de leitura e armazenamento de informações oriundas de formulários.
+
+Nesse contexto, você, desenvolvedor de sistemas web, precisa implementar um formulário em PHP que contenha quatro atributos, bem como uma rotina em PHP que faça o recebimento desses dados pelo método $_POST. Os atributos nome, idade e cidade que mora são do tipo text, e o atributo estados que visitou é do tipo select com seleção múltipla, que permite selecionar mais de um item da lista.
+
+Para escrever esse programa, você deve criar duas estruturas de repetição: uma para apresentar os campos do tipo text com seus respectivos valores e outra para listar todos os estados que foram selecionados. Lembre-se de criar o campo select como array no formulário HTML, para permitir que todos os elementos selecionados sejam interpretados pela estrutura foreach do PHP.
+```
+
+#### Task 09
+```
+Um módulo CRUD permite diversas operações, como incluir, alterar, excluir ou consultar registros de tabelas de um banco de dados. Quanto mais os arquivos forem separados pela sua funcionalidade, melhor o entendimento e o funcionamento do programa. Por isso, ele é um grande facilitador na rotina diária de desenvolvimento de sistemas.
+![alt text](/images/image-1.png)
+```
+
+#### Task 10
+```
+O padrão de projetos Factory fornece uma interface para criar grupos de objetos que se relacionam aos seus dependentes, sem a necessidade de especificar suas classes concretas. Esse padrão possibilita que a aplicação implemente uma fábrica, em que um objeto será responsável por criar e fazer a entrega de outros objetos, baseando-se em alguns parâmetros de entrada, sem precisar especificar a classe concreta desses objetos.
+
+Você, desenvolvedor de sistemas, com base na utilização do padrão de projetos Factory, precisa implementar uma aplicação em PHP que exiba na tela o idioma de dois países, cujos arquivos envolvidos e cuja tela com o resultado da execução podem ser observados na imagem a seguir:
+![alt text](/images/image-2.png)
 ```
